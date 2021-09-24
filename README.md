@@ -35,13 +35,13 @@ int main() {
     }
     
     // You can also groupe programs to check whether or not they are running.
-    std::vector<std::string> bad_programs = {"cheater.exe", "new_cheater.exe"};
-    if(ProcessChecker.is_running(bad_programs)) {
+    std::vector<std::string> BadPrograms = {"cheater.exe", "new_cheater.exe"};
+    if(ProcessChecker.is_running(BadPrograms)) {
         // Have fun against cheaters
     }
     
     //Creating a processchecker just to check for cheating
-    processchecker CheatProcesses(bad_programs);
+    processchecker CheatProcesses(BadPrograms);
     if(CheatProcesses.is_running()) {
         // Again get creative against cheaters
     }
