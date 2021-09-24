@@ -11,7 +11,7 @@ A main function is provided to give you a quick start.
 #include <string>
 #include <vector>
 
-#inlcude "processchecker.hpp"
+#include "processchecker.hpp"
 
 int main() {
     // Default checking for OBS, Streamlabs OBS, XSplit and vokoscreenNG on Windows
